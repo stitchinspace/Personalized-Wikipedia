@@ -18,10 +18,6 @@ if (query == 'Search wikipedia' || query == '') {
 
 
   function makeRequest(query) {
-  //   $.getJSON('https://en.wikipedia.org/w/api.php?action=query&format=json&titles=' + "frog" + '&callback=?' , function(json){
-  // console.log(json);
-  //   )}
-
 $.ajax({
   type: 'GET',
   url: 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + query + '&limit=3&namespace=0&format=json&callback=?',

@@ -14,6 +14,11 @@ padding: 0;
   overflow: auto;
 }
 
+body {
+background-image: url(World_of_Wikipedia_by_Jon_Robson_-_colored_version.png);
+background-size: cover
+
+}
 	#search{
 		float:right;
 		padding:20px;
@@ -29,9 +34,7 @@ padding: 0;
 		border-bottom-left-radius: 5px 5px;
 	}
 
-#text::-moz-placeholder{
 
-}
 #button {
     margin: 0;
     padding: 5px 7px;
