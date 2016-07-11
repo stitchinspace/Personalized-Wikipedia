@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <script type="text/javascript" src="script.js" ></script>
-  <script src = "jquery-2.2.4.min.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>title</title>
-  </head>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="jquery-2.2.4.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+<header>Simple Wiki Search</header>
 
 <body>
-<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"> Random Article </a>
-<form id="search">
-<input type="text" id="text" value="Search wikipedia" />
-<input type="button" value="Search" id="button" />
-		</form>
-<article id="result1"> </article>
-<p id="resulta"></p>
-<article id="result2"></article>
-<p id="resultb"></p>
-<article id="result3"></article>
-<p id="resultc"></p>
+    <div class="search">
+        <form id="search">
+            <input type="text" id="text" value="Search wikipedia" />
+            <input type="button" value="Search" id="button" />
+        </form>
+        <a id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"> Random Article </a>
+    </div>
+
+    <div class="result">
+        <a id="result1" href="">words to us for styling this section</a>
+        <p id="resulta">words to us for styling this section</p>
+    </div>
+
+
+    <div class="result">
+        <a id="result2" href=""> words to us for styling this section</a>
+        <p id="resultb">words to us for styling this section</p>
+    </div>
+
+    <div class="result">
+        <a id="result3" href="">words to us for styling this section</a>
+        <p id="resultc">words to us for styling this section</p>
+    </div>
+
 </body>
 <footer></footer>
+
 </html>
 
 <!-- method="get" action="http://www.wikipedia.com" -->
